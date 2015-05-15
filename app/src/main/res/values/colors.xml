@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aquamarine0">#00adbb</color>
+    <color name="aquamarine1">#78cdd4</color>
+    <color name="aquamarine2">#138f98</color>
+    <color name="aquamarine3">#006c73</color>
+    <color name="aquamarine4">#025153</color>
+
+    <color name="black0">#000000</color>
+    <color name="black1">#939598</color>
+    <color name="black2">#636466</color>
+    <color name="black3">#414042</color>
+
+    <color name="white">#ffffff</color>
+
+    <color name="taupe0">#b5a268</color>
+    <color name="taupe1">#c2b59b</color>
+    <color name="taupe2">#988968</color>
+    <color name="taupe3">#7a7054</color>
+    <color name="taupe4">#645c40</color>
+
+    <color name="red0">#d13238</color>
+    <color name="green0">#7f8a43</color>
+</resources>

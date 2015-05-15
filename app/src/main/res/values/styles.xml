@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="EssenceTheme" parent="Base.Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="actionBarStyle">@style/EssenceActionBar</item>
+        <item name="android:actionBarStyle">@style/EssenceActionBar</item>
+    </style>
+    
+    <style name="EssenceActionBar"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/actionbar_background</item>
+        <item name="icon">@drawable/ic_action_name</item>
+        <item name="titleTextStyle">@style/EssenceTitleText</item>
+        <item name="android:background">@drawable/actionbar_background</item>
+        <item name="android:icon">@drawable/ic_action_name</item>
+        <item name="android:titleTextStyle">@style/EssenceTitleText</item>
+        <item name="colorPrimaryDark">@color/aquamarine0</item>
+    </style>
+
+    <style name="EssenceTitleText"
+        parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/black0</item>
+    </style>
+
+
+</resources>

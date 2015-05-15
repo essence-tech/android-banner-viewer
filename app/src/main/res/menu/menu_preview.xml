@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.essencedigital.essencebanners.PreviewActivity">
+    <item android:id="@+id/banner300x250" android:title="@string/banner_300x250"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/banner300x600" android:title="@string/banner_300x600"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/banner320x416" android:title="@string/banner_320x416"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/banner320x480" android:title="@string/banner_320x480"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/banner728x90" android:title="@string/banner_728x90"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/banner160x600" android:title="@string/banner_160x600"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/bannerFullscreen" android:title="@string/banner_Fullscreen"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
