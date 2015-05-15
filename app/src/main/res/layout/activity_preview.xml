@@ -6,12 +6,25 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
         tools:context="com.essencedigital.essencebanners.PreviewActivity">
             <WebView
                 android:layout_width="300dp"
                 android:layout_height="250dp"
                 android:id="@+id/webView"
                 android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true" />
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/button_reload"
+                android:backgroundTint="@color/aquamarine0"
+                android:onClick="reload" />
+
     </RelativeLayout>
 </ScrollView>

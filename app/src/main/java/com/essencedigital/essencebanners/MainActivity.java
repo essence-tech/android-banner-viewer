@@ -26,7 +26,7 @@ public class MainActivity extends ActionBarActivity {
         EditText editText = (EditText) findViewById(R.id.edit_url);
 
         String url = editText.getText().toString();
-        if (url.startsWith("http") == false) {
+        if (!url.startsWith("http")) {
             url = "http://" + url;
         }
         Uri uri = Uri.parse(url);

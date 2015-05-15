@@ -2,6 +2,7 @@
     <string name="app_name">Essence Banners</string>
     <string name="edit_url">Preview a URL</string>
     <string name="button_preview">Preview</string>
+    <string name="button_reload">Reload</string>
     <string name="title_activity_preview">Preview</string>
 
     <string name="banner_300x250">300 x 250</string>

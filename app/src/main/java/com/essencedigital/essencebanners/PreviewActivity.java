@@ -7,6 +7,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.webkit.WebChromeClient;
@@ -143,5 +144,11 @@ public class PreviewActivity extends ActionBarActivity {
         webView.setLayoutParams(lp);
         webView.loadUrl(url);
         return super.onOptionsItemSelected(item);
+    }
+
+    public void reload(View view) {
+        webView.clearCache(true);
+        webView.reload();
+        webView.loadUrl(url);
     }
 }
