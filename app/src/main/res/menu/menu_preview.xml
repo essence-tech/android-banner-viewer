@@ -6,9 +6,15 @@
         android:orderInCategory="100" app:showAsAction="never" />
     <item android:id="@+id/banner300x600" android:title="@string/banner_300x600"
         android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/banner320x50" android:title="@string/banner_320x50"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/banner320x100" android:title="@string/banner_320x100"
+        android:orderInCategory="100" app:showAsAction="never" />
     <item android:id="@+id/banner320x416" android:title="@string/banner_320x416"
         android:orderInCategory="100" app:showAsAction="never" />
     <item android:id="@+id/banner320x480" android:title="@string/banner_320x480"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/banner468x60" android:title="@string/banner_468x60"
         android:orderInCategory="100" app:showAsAction="never" />
     <item android:id="@+id/banner728x90" android:title="@string/banner_728x90"
         android:orderInCategory="100" app:showAsAction="never" />

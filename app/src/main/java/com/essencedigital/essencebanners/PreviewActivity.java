@@ -115,6 +115,14 @@ public class PreviewActivity extends ActionBarActivity {
                 dimX = pxToDp(300);
                 dimY = pxToDp(600);
                 break;
+            case R.id.banner320x50:
+                dimX = pxToDp(320);
+                dimY = pxToDp(50);
+                break;
+            case R.id.banner320x100:
+                dimX = pxToDp(320);
+                dimY = pxToDp(100);
+                break;
             case R.id.banner320x416:
                 dimX = pxToDp(320);
                 dimY = pxToDp(416);
@@ -122,6 +130,10 @@ public class PreviewActivity extends ActionBarActivity {
             case R.id.banner320x480:
                 dimX = pxToDp(320);
                 dimY = pxToDp(480);
+                break;
+            case R.id.banner468x60:
+                dimX = pxToDp(468);
+                dimY = pxToDp(60);
                 break;
             case R.id.banner728x90:
                 dimX = pxToDp(728);

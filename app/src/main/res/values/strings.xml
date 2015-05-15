@@ -7,8 +7,11 @@
 
     <string name="banner_300x250">300 x 250</string>
     <string name="banner_300x600">300 x 600</string>
+    <string name="banner_320x50">320 x 50</string>
+    <string name="banner_320x100">320 x 100</string>
     <string name="banner_320x416">320 x 416</string>
     <string name="banner_320x480">320 x 480</string>
+    <string name="banner_468x60">468 x 60</string>
     <string name="banner_728x90">728 x 90</string>
     <string name="banner_160x600">160 x 600</string>
     <string name="banner_Fullscreen">Fullscreen</string>
